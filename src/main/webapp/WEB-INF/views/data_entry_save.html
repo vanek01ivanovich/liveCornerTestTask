@@ -47,39 +47,5 @@
     <input type="submit" value="Save">
 </form>
 
-
-<!--<form th:method="POST" th:action="@{/data}" th:object="${animalCreateDto}" >
-    <div>
-        <label for="name">Animal Name</label>
-        <input type="text" th:field="*{animalName}" id="name" placeholder="Name">
-    </div>
-
-    <div>
-        <label for="animalClassName">Class</label>
-        <select id="animalClassName" th:field="*{animalClassName}">
-            <option th:each="class : ${allAnimalClasses}" th:value="${class.name}" th:text="${class.name}"></option>
-        </select>
-    </div>
-
-    <div>
-        <label for="animalTypes">Type</label>
-        <input list="allAnimalTypes" th:field="*{animalTypeName}" id="animalTypes">
-        <datalist id="allAnimalTypes">
-            <option th:each="types : ${allAnimalTypes}" th:value="${types.name}" th:text="${types.name}"></option>
-        </datalist >
-    </div>
-
-    <div>
-        <label for="storageLocationName">Storage location</label>
-        <input list="allStorageLocation" th:field="*{storageLocationName}" id="storageLocationName">
-        <datalist id="allStorageLocation">
-            <option th:each="location : ${allStorageLocation}" th:value="${location.name}" th:text="${location.name}"></option>
-        </datalist >
-
-    </div>
-
-    <input type="submit" value="Save">
-</form>-->
-
 </body>
 </html>
